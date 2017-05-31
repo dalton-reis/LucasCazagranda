@@ -1,0 +1,10 @@
+1. Instalar Node.JS
+2. Instalar PhoneGap
+3. Copiar fontes para uma pasta do computador
+4. Instalar PhoneGap Desktop
+5. Adicionar o projeto no PhoneGap Desktop
+6. Executar o projeto
+
+Executando o projeto no PhoneGap Desktop vai retornar um ip da sua máquina na rede local, então você pode emular diretamente nos dispositivos através do app do PhoneGap para Android e iOS.
+
+Ou, abrir o index.html e abrir diretamente no navegador de internet do computador.
