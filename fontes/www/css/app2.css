@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'VisualBraille';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VisualBraille'), url('../font/visualbraille.woff') format('woff');
+}
+
+/* Estilos comuns */
+.lista-itens { overflow:auto; height:100%; }
+
+/* Loading */
+.caixa-loading { display:none; position:fixed; z-index:1000; top:0; left:0; height:100%; width:100%;
+    			 background: rgba( 255, 255, 255, .8 ) 
+                			 url('http://i.stack.imgur.com/FhHRx.gif')
+                			 50% 50% 
+                			 no-repeat; }
+
+body.loading { overflow:hidden; }
+
+body.loading .caixa-loading { display:block; }
+
+/* Wrapper */
+.wrapper { height:100vh; }
+
+/* Navegacao */
+.navegacao { height:100%; }
+.navegacao .ir { background-color:#00CC00; height:50%; }
+.navegacao .voltar { background-color:#FF0000; height:50%; }
+.navegacao .voltar-only { background-color:#FF0000; height:100%; }
+.navegacao a { height:100%; width:100%; }
+
+/* Area de controle */
+.area-controle { overflow:auto; height:100%; }
+.area-controle .foto { height:40%; }
+.area-controle .funcoes { height:60%; }
+
+/* Area de transicao */
+.area-transicao { border-left:5px #669999 double; overflow:auto; height:100%; }
+
+/* Prancha */
+.prancha { height:100%; }
+
+/* Imagem */
+.imagem { height:100%; }
+
+/* Formulario */
+.formulario { height:100%; }
+
+/* Botões tela principal AppBraille */
+.btn-main-appbraille 
+	{ background-repeat: no-repeat;
+		background-position: bottom left;
+		text-align:right;
+		left: 5%; 
+		width: 45%; 
+		height:100%; 
+		font-size:30px; 
+		padding:5%; }
+		
+.btn-main-sinais { background-size:50%; background-image:url("../img/sinais-braille/s-braille.png"); }
+.btn-main-consulta { background-size:50%; background-image:url("../img/sinais-braille/c-braille.png"); }
+.btn-main-palavras { background-size:50%; background-image:url("../img/sinais-braille/p-braille.png"); }
+.btn-main-frases { background-size:50%; background-image:url("../img/sinais-braille/m-braille.png"); }
+.btn-alfabeto { width: 20%; height: 100%; margin-left: 3.5%; }
+.btn-sinal { background-repeat: no-repeat; background-position: center; background-size:90%; }
+.btn-a { background-image:url("../img/sinais-braille/a-braille.png"); }
+.btn-b { background-image:url("../img/sinais-braille/b-braille.png"); }
+.btn-c { background-image:url("../img/sinais-braille/c-braille.png"); }
+.btn-d { background-image:url("../img/sinais-braille/d-braille.png"); }
+.btn-e { background-image:url("../img/sinais-braille/e-braille.png"); }
+.btn-f { background-image:url("../img/sinais-braille/f-braille.png"); }
+.btn-g { background-image:url("../img/sinais-braille/g-braille.png"); }
+.btn-h { background-image:url("../img/sinais-braille/h-braille.png"); }
+.btn-i { background-image:url("../img/sinais-braille/i-braille.png"); }
+.btn-j { background-image:url("../img/sinais-braille/j-braille.png"); }
+.btn-k { background-image:url("../img/sinais-braille/k-braille.png"); }
+.btn-l { background-image:url("../img/sinais-braille/l-braille.png"); }
+.btn-m { background-image:url("../img/sinais-braille/m-braille.png"); }
+.btn-n { background-image:url("../img/sinais-braille/n-braille.png"); }
+.btn-o { background-image:url("../img/sinais-braille/o-braille.png"); }
+.btn-p { background-image:url("../img/sinais-braille/p-braille.png"); }
+.btn-q { background-image:url("../img/sinais-braille/q-braille.png"); }
+.btn-r { background-image:url("../img/sinais-braille/r-braille.png"); }
+.btn-s { background-image:url("../img/sinais-braille/s-braille.png"); }
+.btn-t { background-image:url("../img/sinais-braille/t-braille.png"); }
+.btn-u { background-image:url("../img/sinais-braille/u-braille.png"); }
+.btn-v { background-image:url("../img/sinais-braille/v-braille.png"); }
+.btn-w { background-image:url("../img/sinais-braille/w-braille.png"); }
+.btn-x { background-image:url("../img/sinais-braille/x-braille.png"); }
+.btn-y { background-image:url("../img/sinais-braille/y-braille.png"); }
+.btn-z { background-image:url("../img/sinais-braille/z-braille.png"); }
+.btn-cedilha { background-image:url("../img/sinais-braille/cedilha-braille.png"); }
+.btn-e-agudo { background-image:url("../img/sinais-braille/e-agudo-braille.png"); }
+.btn-a-agudo { background-image:url("../img/sinais-braille/a-agudo-braille.png"); }
+.btn-e-crase { background-image:url("../img/sinais-braille/e-crase-braille.png"); }
+.btn-u-agudo { background-image:url("../img/sinais-braille/u-agudo-braille.png"); }
+.btn-a-circunflexo { background-image:url("../img/sinais-braille/a-circunflexo-braille.png"); }
+.btn-e-circunflexo { background-image:url("../img/sinais-braille/e-circunflexo-braille.png"); }
+.btn-i-agudo { background-image:url("../img/sinais-braille/i-agudo-braille.png"); }
+.btn-o-circunflexo { background-image:url("../img/sinais-braille/o-circunflexo-braille.png"); }
+.btn-arroba { background-image:url("../img/sinais-braille/arroba-braille.png"); }
+.btn-a-crase { background-image:url("../img/sinais-braille/a-crase-braille.png"); }
+.btn-i-trema { background-image:url("../img/sinais-braille/i-trema-braille.png"); }
+.btn-u-trema { background-image:url("../img/sinais-braille/u-trema-braille.png"); }
+.btn-o-til { background-image:url("../img/sinais-braille/o-til-braille.png"); }
+.btn-virgula { background-image:url("../img/sinais-braille/virgula-braille.png"); }
+.btn-ponto-e-virgula { background-image:url("../img/sinais-braille/ponto-e-virgula-braille.png"); }
+.btn-dois-pontos { background-image:url("../img/sinais-braille/dois-pontos-braille.png"); }
+.btn-divisao { background-image:url("../img/sinais-braille/divisao-braille.png"); }
+.btn-interrogacao { background-image:url("../img/sinais-braille/interrogacao-braille.png"); }
+.btn-adicao { background-image:url("../img/sinais-braille/adicao-braille.png"); }
+.btn-igual { background-image:url("../img/sinais-braille/igual-braille.png"); }
+.btn-multiplicacao { background-image:url("../img/sinais-braille/multiplicacao-braille.png"); }
+.btn-asterisco { background-image:url("../img/sinais-braille/asterisco-braille.png"); }
+.btn-grau { background-image:url("../img/sinais-braille/grau-braille.png"); }
+.btn-a-til { background-image:url("../img/sinais-braille/a-til-braille.png"); }
+.btn-o-agudo { background-image:url("../img/sinais-braille/o-agudo-braille.png"); }
+.btn-sinal-numerico { background-image:url("../img/sinais-braille/sinal-numerico-braille.png"); }
+.btn-ponto-final { background-image:url("../img/sinais-braille/ponto-final-braille.png"); }
+.btn-hifen { background-image:url("../img/sinais-braille/hifen-braille.png"); }
+.btn-pipe { background-image:url("../img/sinais-braille/pipe-braille.png"); }
+.btn-sinal-maiusculo { background-image:url("../img/sinais-braille/sinal-maiusculo-braille.png"); }
+.btn-cifrao { background-image:url("../img/sinais-braille/cifrao-braille.png"); }
+.btn-146 { background-image:url("../img/sinais-braille/146-braille.png"); }
+.btn-4 { background-image:url("../img/sinais-braille/4-braille.png"); }
+.btn-45 { background-image:url("../img/sinais-braille/45-braille.png"); }
+.btn-5 { background-image:url("../img/sinais-braille/5-braille.png"); }
+.btn-6 { background-image:url("../img/sinais-braille/6-braille.png"); }
+
+
+	
+/* AppBraille */
+.rodape-nomes { font-size:12px; color:black; margin:0px 10px 5px 0px; }
+.container2-main-appbraille { left:0; width: 100%; height:40%; }
+.cell-braille { width: 100%; height: 19%; }
+.cell-braille-palavras { width: 100%; height: 33%; }
+.point-braille { width: 20%; height: 100%; margin:2%; background: transparent; border-radius: 50%; border: 4px solid black; }
+.point-braille-palavras { width: 25%; height: 100%; margin:4%; background: transparent; border-radius: 50%; border: 4px solid black; }
+.point-braille-palavras-confirmar { width: 5%; height: 70%; margin:4%; background-color: #4CAF50; background-image:url("../img/maior.png"); background-position: center; background-repeat: no-repeat; border-radius: 50%; border: 4px solid #4CAF50; }
+.point-maquina { width: 9.5%; height: 80%; margin:2%; background: transparent; border-radius: 50%; border: 4px solid black; }
+.point-maquina-espaco { width: 9.5%; height: 50%; margin:2%; background: black; border: 4px solid black; }
+.sinal-braille { font-size: 400%; }
+.imagem-padrao { width: 45%; height: 100%; }
+.imagem-pratica { width: 100%; height: 100%; }
+.textoLatino { font-family: 'Courier New'; font-size: 600%; font-weight: bold; }
+.textoLatino2 { font-family: 'Courier New'; font-size: 500%; font-weight: bold; }
+.textoLatino3 { font-family: 'Courier New'; font-size: 400%; font-weight: bold; }
+.textMaquina { height: 33%; }
+/*.imagem-small-b { border-color: black; border-style: dotted; border-width: medium; }*/
+
+.div2 { float: left; width: 45%; margin-left: 3%; }
+.compDiv2 { margin-left: 49%; }

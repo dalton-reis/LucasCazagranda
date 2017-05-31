@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Exemplo Sinais Braille</title>
+    
+	<link href="../css/jquery.mobile-1.1.2.min.css" rel="stylesheet" type="text/css" media="screen">
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>	
+	<link href="../css/app2.css" rel="stylesheet" type="text/css" media="screen"> 
+
+</head>
+
+<body class="cyan lighten-2">
+	<div class="container z-depth-5">
+		<div class="wrapper row">            
+            <div class="navegacao col s2">
+				<div class="voltar-only row" style="margin-bottom:0px">
+					<a href="javascript:window.history.go(-1)" class="waves-effect waves-white red btn-large sair z-depth-5 hoverable"></a>
+				</div>
+		    </div>
+
+		   	<form class="formulario col s10 light-blue lighten-5 black-text">
+				<h3 id="let" class="light-blue lighten-5 indigo-text darken-4-text center-align textoLatino"></h3>
+
+                <div align="center" style="height:40%">
+                    <img id="img" class="imagem-padrao"></img>
+                </div>
+
+                <div>
+                    <div id="divTexto" align="center"></div>
+                    <div id="divBraille" align="center"></div>
+                </div>
+		   	</form>
+		</div>
+    </div>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="../js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/exemplo-sinais.js"></script>
+</body>
+
+</html>
