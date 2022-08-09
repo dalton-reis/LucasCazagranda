@@ -1,9 +1,7 @@
-# TCC
-
+Título: APRENDENDO BRAILLE: O ENSINO DO SISTEMA BRAILLE COM O USO DO TAGARELA  
 Ano/Semestre: 2016/I  
 Acadêmico(a): Lucas Cazagranda  
 Orientador(a): Dalton Solano dos Reis  
-Título: APRENDENDO BRAILLE: O ENSINO DO SISTEMA BRAILLE COM O USO DO TAGARELA  
 Membros da Banca Examinadora: Aurélio Faustino Hoppe - Joyce Martins  
 
 ----
